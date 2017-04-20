@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MartinPelayo/first-half-stack/issues"
   },
-  "homepage": "https://github.com/MartinPelayo/first-half-stack#readme"
+  "homepage": "https://github.com/MartinPelayo/first-half-stack#readme",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
 }
