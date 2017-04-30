@@ -15,11 +15,7 @@ describe('Get / ', () => {
       .then(res => res.text)
       .then(text => assert.equal(text, 'What up world!'));
   });
-
-
-
-
-
+});
 
 
 
@@ -38,10 +34,10 @@ describe('Get / ', () => {
   //   .send(dog);
   // }
 
-  const dawg = {
-    name: 'dawg',
-    type: 'dog'
-  };
+  // const dawg = {
+  //   name: 'dawg',
+  //   type: 'dog'
+  // };
 
   // it('saves a doggo', () => {
   //   return savedDoggo(dawg)
@@ -56,15 +52,14 @@ describe('Get / ', () => {
 
 
 
-it ('GETs doggo is if exists', () => {
-  return request
-    .get(`/dogs/${dawg._id}`)
-    .then(res => res.body)
-    .then(dog => assert.deepEqual(dog, dawg));
-});
+// it ('GETs doggo is if it exists', () => {
+//   return request
+//     .get(`/dogs/${dawg._id}`)
+//     .then(res => res.body)
+//     .then(dog => assert.deepEqual(dog, dawg));
+// });
 
 
 
 
 
-});
